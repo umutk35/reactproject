@@ -1,0 +1,36 @@
+.ksTasarım{
+    display: grid;
+    grid-template-rows: auto auto auto;
+   
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.ksHeader { 
+    grid-area: header;
+}
+
+.ksMain { 
+    grid-area: main; 
+    min-height: 85vh;
+    background-image: url('./Components/Images/azrenkli.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.ksFooter { 
+    grid-area: footer;
+    background-color:#343a40;
+    padding: 1vh;
+    color:white;
+    text-align: center;
+    
+ }
+
+ .headerYazi{
+    color:white;
+    font-family: "Verdana", Sans-serif;
+ }

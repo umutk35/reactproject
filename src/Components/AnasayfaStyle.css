@@ -1,0 +1,18 @@
+.anasayfa{
+    background-image: url('./Images/renkli.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kayitGiris{ position: relative;}
+
+.block { position: absolute; }
+.block-left { left: 0; }
+.block-right { right: 0; }
+
+.form{box-shadow: 10px 10px 35px -5px #000000; }

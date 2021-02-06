@@ -1,0 +1,21 @@
+.ticketFormu{
+    background: white;
+    box-shadow: 10px 10px 35px -5px black;
+    align-items: center;
+    display: grid;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+
+    
+}
+
+.gonder{
+    display: flex; 
+    justify-content: flex-end;  
+}
+.gonderButonu{
+    width: 150px;
+    height: 40px;
+}
